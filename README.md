@@ -7,7 +7,7 @@
 
 **Plane\_Boarding\_ADT**
 
-- Utilizes a queue as a circular linked list to add and remove passengers from a &#39;preboard&#39; queue and then a sorted &#39;board&#39; queue.
+- Utilizes a queue as a circular linked list to add and remove passengers from a &#39;preboard&#39; queue and then to a sorted &#39;board&#39; queue.
 - Passengers from the sorted &#39;board&#39; queue are then &#39;pushed&#39; in sorted order into the plane &#39;stack&#39;, such that the person deepest into the plane boards first and then the lower rows. Passengers in each row also board in the order such that seats closer to the windows board first.
 - The program is customizable to a plane of any &#39;halfrow&#39; size - i.e there needs to be an even number of seats in each row and only a single aisle.
 - The plane &#39;stack&#39; is created as a linear linked list of arrays. Each node represents a row and its array the seats in that row.
